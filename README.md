@@ -1,2 +1,2 @@
-# docker-ubuntu-kde-vnc
+# docker-ubuntu-xfce-vnc
 Test
