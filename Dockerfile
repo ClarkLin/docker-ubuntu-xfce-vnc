@@ -23,8 +23,7 @@ RUN echo "deb http://mirrors.aliyun.com/ubuntu/ trusty main restricted universe 
 
 ############### xvnc / kde installation ###############
 RUN apt-get update \ 
-	&& apt-get upgrade -y \
-	&& apt-get install -y supervisor vim xfce4 vnc4server wget unzip firefox
+	&& apt-get install -y supervisor vim wget unzip firefox vnc4server xorg gdm ubuntu-desktop gnome-core screenlets
 
 ############### Install chrome browser ###############
 RUN apt-get install -y chromium-browser chromium-browser-l10n chromium-codecs-ffmpeg \
